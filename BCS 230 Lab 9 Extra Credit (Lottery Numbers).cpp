@@ -465,8 +465,8 @@ void playAgain(vector<int> lotteryNumbers,  vector<int> userNumbers){
        // Sort the lottery's numbers
        // sortNumbers(lotteryNumbers, 7);
        // Display the lottery's numbers
-       cout << string(6, ' ') << "The lottery numbers are: ";
-       displayNumbers(lotteryNumbers);
+       //cout << string(6, ' ') << "The lottery numbers are: ";
+       //displayNumbers(lotteryNumbers);
 
         // Take the seven numbers from the user
         takeInput(userNumbers);
